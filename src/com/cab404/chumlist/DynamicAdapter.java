@@ -1,4 +1,4 @@
-package com.cab404.eqd_client;
+package com.cab404.chumlist;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -84,6 +84,19 @@ public class DynamicAdapter extends BaseAdapter {
             typed.add(converter);
         list.add(new ViewBinder<>(instance, data));
     }
+
+    /**
+     * Adds new entry into adapter.
+     */
+    @SuppressWarnings("unchecked")
+    public <Data> void addAll(Class<? extends ViewConverter<Data>> converter, Collection<Data> data_set) {
+        ViewConverter<Data> instance = (ViewConverter<Data>) converters.getInstance(converter);
+        if (!typed.contains(converter))
+            typed.add(converter);
+        for (Data data : data_set)
+            list.add(new ViewBinder<>(instance, data));
+    }
+
 
     /**
      * Removes entry at given index

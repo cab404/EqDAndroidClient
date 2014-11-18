@@ -1,4 +1,4 @@
-package com.cab404.eqd_client;
+package com.cab404.chumlist;
 
 import java.lang.reflect.InvocationTargetException;
 /**

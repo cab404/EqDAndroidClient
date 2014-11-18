@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Equestria Daily</string>
+    <string name="example_long_text">— There\'s a hell lot of text written right here. In fact, I should\'ve added some
+        images, but it is too costly to inflate such a huge view. So just imagine there\'s some images below this text.
+    </string>
+    <string name="examle_data">by someone_else, at 3:40pm</string>
+    <string name="example_title">It is definitly a topic title</string>
+    <string name="flutterwait">...well ...if you don\'t mind...</string>
+    <string name="wait_top">Please, wait, we\'re loading stuff</string>
 </resources>
