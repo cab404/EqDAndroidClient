@@ -9,5 +9,5 @@ import android.view.ViewGroup;
 public interface ViewConverter<From> {
     public void convert(View view, From data, ViewGroup parent);
     public View createView(ViewGroup parent, LayoutInflater inflater);
-    public <Child extends From> boolean enabled(Child data);
+    public boolean enabled(From data);
 }

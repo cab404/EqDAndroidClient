@@ -4,4 +4,23 @@
     <color name="secondary_bg">#ffffff</color>
     <color name="main_bg">#ff293039</color>
 
+    <color name="font_color_command_line">#ff293033</color>
+    <color name="bg_main">#ff7ac0d9</color>
+    <color name="bg_tint">#aa000000</color>
+
+    <color name="font_color">#ff5c5c5c</color>
+    <color name="font_color_link">#ff19464b</color>
+    <color name="font_color_red">#ffca0033</color>
+    <color name="font_color_blue">#ff0086b6</color>
+    <color name="font_color_green">#ff00ab4b</color>
+
+    <color name="spoiler_bg">#d333</color>
+    <color name="spoiler_label">@color/main_bg</color>
+
+    <color name="cut_border">#ff628288</color>
+    <color name="cut_bg">#85476068</color>
+
+    <color name="code_bg">#ff3b3b3b</color>
+    <color name="code_color">#A9B7C6</color>
+
 </resources>
